@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC49813A279FD8B300FFD190 /* SelfChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC498139279FD8B300FFD190 /* SelfChatApp.swift */; };
+		FC49813C279FD8B300FFD190 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC49813B279FD8B300FFD190 /* ContentView.swift */; };
+		FC49813E279FD8B500FFD190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC49813D279FD8B500FFD190 /* Assets.xcassets */; };
+		FC498141279FD8B500FFD190 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC498140279FD8B500FFD190 /* Preview Assets.xcassets */; };
+		FC49814B279FD8B600FFD190 /* SelfChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC49814A279FD8B600FFD190 /* SelfChatTests.swift */; };
+		FC498155279FD8B600FFD190 /* SelfChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC498154279FD8B600FFD190 /* SelfChatUITests.swift */; };
+		FC498157279FD8B600FFD190 /* SelfChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC498156279FD8B600FFD190 /* SelfChatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC498147279FD8B600FFD190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC49812E279FD8B300FFD190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC498135279FD8B300FFD190;
+			remoteInfo = SelfChat;
+		};
+		FC498151279FD8B600FFD190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC49812E279FD8B300FFD190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC498135279FD8B300FFD190;
+			remoteInfo = SelfChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC498136279FD8B300FFD190 /* SelfChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC498139279FD8B300FFD190 /* SelfChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfChatApp.swift; sourceTree = "<group>"; };
+		FC49813B279FD8B300FFD190 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC49813D279FD8B500FFD190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC498140279FD8B500FFD190 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC498146279FD8B600FFD190 /* SelfChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC49814A279FD8B600FFD190 /* SelfChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfChatTests.swift; sourceTree = "<group>"; };
+		FC498150279FD8B600FFD190 /* SelfChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC498154279FD8B600FFD190 /* SelfChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfChatUITests.swift; sourceTree = "<group>"; };
+		FC498156279FD8B600FFD190 /* SelfChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC498133279FD8B300FFD190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC498143279FD8B600FFD190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC49814D279FD8B600FFD190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC49812D279FD8B300FFD190 = {
+			isa = PBXGroup;
+			children = (
+				FC498138279FD8B300FFD190 /* SelfChat */,
+				FC498149279FD8B600FFD190 /* SelfChatTests */,
+				FC498153279FD8B600FFD190 /* SelfChatUITests */,
+				FC498137279FD8B300FFD190 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC498137279FD8B300FFD190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC498136279FD8B300FFD190 /* SelfChat.app */,
+				FC498146279FD8B600FFD190 /* SelfChatTests.xctest */,
+				FC498150279FD8B600FFD190 /* SelfChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC498138279FD8B300FFD190 /* SelfChat */ = {
+			isa = PBXGroup;
+			children = (
+				FC498139279FD8B300FFD190 /* SelfChatApp.swift */,
+				FC49813B279FD8B300FFD190 /* ContentView.swift */,
+				FC49813D279FD8B500FFD190 /* Assets.xcassets */,
+				FC49813F279FD8B500FFD190 /* Preview Content */,
+			);
+			path = SelfChat;
+			sourceTree = "<group>";
+		};
+		FC49813F279FD8B500FFD190 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC498140279FD8B500FFD190 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC498149279FD8B600FFD190 /* SelfChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC49814A279FD8B600FFD190 /* SelfChatTests.swift */,
+			);
+			path = SelfChatTests;
+			sourceTree = "<group>";
+		};
+		FC498153279FD8B600FFD190 /* SelfChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC498154279FD8B600FFD190 /* SelfChatUITests.swift */,
+				FC498156279FD8B600FFD190 /* SelfChatUITestsLaunchTests.swift */,
+			);
+			path = SelfChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC498135279FD8B300FFD190 /* SelfChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC49815A279FD8B600FFD190 /* Build configuration list for PBXNativeTarget "SelfChat" */;
+			buildPhases = (
+				FC498132279FD8B300FFD190 /* Sources */,
+				FC498133279FD8B300FFD190 /* Frameworks */,
+				FC498134279FD8B300FFD190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfChat;
+			productName = SelfChat;
+			productReference = FC498136279FD8B300FFD190 /* SelfChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC498145279FD8B600FFD190 /* SelfChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC49815D279FD8B600FFD190 /* Build configuration list for PBXNativeTarget "SelfChatTests" */;
+			buildPhases = (
+				FC498142279FD8B600FFD190 /* Sources */,
+				FC498143279FD8B600FFD190 /* Frameworks */,
+				FC498144279FD8B600FFD190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC498148279FD8B600FFD190 /* PBXTargetDependency */,
+			);
+			name = SelfChatTests;
+			productName = SelfChatTests;
+			productReference = FC498146279FD8B600FFD190 /* SelfChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC49814F279FD8B600FFD190 /* SelfChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC498160279FD8B600FFD190 /* Build configuration list for PBXNativeTarget "SelfChatUITests" */;
+			buildPhases = (
+				FC49814C279FD8B600FFD190 /* Sources */,
+				FC49814D279FD8B600FFD190 /* Frameworks */,
+				FC49814E279FD8B600FFD190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC498152279FD8B600FFD190 /* PBXTargetDependency */,
+			);
+			name = SelfChatUITests;
+			productName = SelfChatUITests;
+			productReference = FC498150279FD8B600FFD190 /* SelfChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC49812E279FD8B300FFD190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FC498135279FD8B300FFD190 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FC498145279FD8B600FFD190 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FC498135279FD8B300FFD190;
+					};
+					FC49814F279FD8B600FFD190 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FC498135279FD8B300FFD190;
+					};
+				};
+			};
+			buildConfigurationList = FC498131279FD8B300FFD190 /* Build configuration list for PBXProject "SelfChat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC49812D279FD8B300FFD190;
+			productRefGroup = FC498137279FD8B300FFD190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC498135279FD8B300FFD190 /* SelfChat */,
+				FC498145279FD8B600FFD190 /* SelfChatTests */,
+				FC49814F279FD8B600FFD190 /* SelfChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC498134279FD8B300FFD190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC498141279FD8B500FFD190 /* Preview Assets.xcassets in Resources */,
+				FC49813E279FD8B500FFD190 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC498144279FD8B600FFD190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC49814E279FD8B600FFD190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC498132279FD8B300FFD190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC49813C279FD8B300FFD190 /* ContentView.swift in Sources */,
+				FC49813A279FD8B300FFD190 /* SelfChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC498142279FD8B600FFD190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC49814B279FD8B600FFD190 /* SelfChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC49814C279FD8B600FFD190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC498157279FD8B600FFD190 /* SelfChatUITestsLaunchTests.swift in Sources */,
+				FC498155279FD8B600FFD190 /* SelfChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC498148279FD8B600FFD190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC498135279FD8B300FFD190 /* SelfChat */;
+			targetProxy = FC498147279FD8B600FFD190 /* PBXContainerItemProxy */;
+		};
+		FC498152279FD8B600FFD190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC498135279FD8B300FFD190 /* SelfChat */;
+			targetProxy = FC498151279FD8B600FFD190 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC498158279FD8B600FFD190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC498159279FD8B600FFD190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC49815B279FD8B600FFD190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SelfChat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ekaterina.SelfChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC49815C279FD8B600FFD190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SelfChat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ekaterina.SelfChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC49815E279FD8B600FFD190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ekaterina.SelfChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfChat.app/SelfChat";
+			};
+			name = Debug;
+		};
+		FC49815F279FD8B600FFD190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ekaterina.SelfChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfChat.app/SelfChat";
+			};
+			name = Release;
+		};
+		FC498161279FD8B600FFD190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ekaterina.SelfChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SelfChat;
+			};
+			name = Debug;
+		};
+		FC498162279FD8B600FFD190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ekaterina.SelfChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SelfChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC498131279FD8B300FFD190 /* Build configuration list for PBXProject "SelfChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC498158279FD8B600FFD190 /* Debug */,
+				FC498159279FD8B600FFD190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC49815A279FD8B600FFD190 /* Build configuration list for PBXNativeTarget "SelfChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC49815B279FD8B600FFD190 /* Debug */,
+				FC49815C279FD8B600FFD190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC49815D279FD8B600FFD190 /* Build configuration list for PBXNativeTarget "SelfChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC49815E279FD8B600FFD190 /* Debug */,
+				FC49815F279FD8B600FFD190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC498160279FD8B600FFD190 /* Build configuration list for PBXNativeTarget "SelfChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC498161279FD8B600FFD190 /* Debug */,
+				FC498162279FD8B600FFD190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC49812E279FD8B300FFD190 /* Project object */;
+}
