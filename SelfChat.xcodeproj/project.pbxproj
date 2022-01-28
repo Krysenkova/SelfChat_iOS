@@ -14,6 +14,15 @@
 		FC49814B279FD8B600FFD190 /* SelfChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC49814A279FD8B600FFD190 /* SelfChatTests.swift */; };
 		FC498155279FD8B600FFD190 /* SelfChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC498154279FD8B600FFD190 /* SelfChatUITests.swift */; };
 		FC498157279FD8B600FFD190 /* SelfChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC498156279FD8B600FFD190 /* SelfChatUITestsLaunchTests.swift */; };
+		FC498166279FDD6100FFD190 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC498165279FDD6100FFD190 /* MessageBubble.swift */; };
+		FC498168279FDE3F00FFD190 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC498167279FDE3F00FFD190 /* Style.swift */; };
+		FC8BD12227A3050600FF8BBD /* ContactCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BD12127A3050600FF8BBD /* ContactCircle.swift */; };
+		FC8BD12427A30DF200FF8BBD /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BD12327A30DF200FF8BBD /* ConversationView.swift */; };
+		FCF61DCF27A436E300658060 /* ChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF61DCE27A436E300658060 /* ChatData.swift */; };
+		FCF61DD327A454E200658060 /* ReadJsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF61DD227A454E200658060 /* ReadJsonData.swift */; };
+		FCF61DD527A45D6600658060 /* Chats.json in Resources */ = {isa = PBXBuildFile; fileRef = FCF61DD427A45D6600658060 /* Chats.json */; };
+		FCF7B42627A3448F0082A38F /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF7B42527A3448F0082A38F /* ChatView.swift */; };
+		FCF7B42827A344C80082A38F /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF7B42727A344C80082A38F /* MessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		FC498150279FD8B600FFD190 /* SelfChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC498154279FD8B600FFD190 /* SelfChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfChatUITests.swift; sourceTree = "<group>"; };
 		FC498156279FD8B600FFD190 /* SelfChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC498165279FDD6100FFD190 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		FC498167279FDE3F00FFD190 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		FC8BD12127A3050600FF8BBD /* ContactCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCircle.swift; sourceTree = "<group>"; };
+		FC8BD12327A30DF200FF8BBD /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		FCF61DCE27A436E300658060 /* ChatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatData.swift; sourceTree = "<group>"; };
+		FCF61DD227A454E200658060 /* ReadJsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJsonData.swift; sourceTree = "<group>"; };
+		FCF61DD427A45D6600658060 /* Chats.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Chats.json; path = ../Chats.json; sourceTree = "<group>"; };
+		FCF7B42527A3448F0082A38F /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		FCF7B42727A344C80082A38F /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +112,17 @@
 		FC498138279FD8B300FFD190 /* SelfChat */ = {
 			isa = PBXGroup;
 			children = (
+				FCF61DD427A45D6600658060 /* Chats.json */,
+				FC498165279FDD6100FFD190 /* MessageBubble.swift */,
+				FC8BD12327A30DF200FF8BBD /* ConversationView.swift */,
 				FC498139279FD8B300FFD190 /* SelfChatApp.swift */,
 				FC49813B279FD8B300FFD190 /* ContentView.swift */,
+				FCF7B42527A3448F0082A38F /* ChatView.swift */,
+				FCF7B42727A344C80082A38F /* MessageView.swift */,
+				FC498167279FDE3F00FFD190 /* Style.swift */,
+				FC8BD12127A3050600FF8BBD /* ContactCircle.swift */,
+				FCF61DCE27A436E300658060 /* ChatData.swift */,
+				FCF61DD227A454E200658060 /* ReadJsonData.swift */,
 				FC49813D279FD8B500FFD190 /* Assets.xcassets */,
 				FC49813F279FD8B500FFD190 /* Preview Content */,
 			);
@@ -233,6 +260,7 @@
 			files = (
 				FC498141279FD8B500FFD190 /* Preview Assets.xcassets in Resources */,
 				FC49813E279FD8B500FFD190 /* Assets.xcassets in Resources */,
+				FCF61DD527A45D6600658060 /* Chats.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +285,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF61DCF27A436E300658060 /* ChatData.swift in Sources */,
+				FC8BD12427A30DF200FF8BBD /* ConversationView.swift in Sources */,
+				FC8BD12227A3050600FF8BBD /* ContactCircle.swift in Sources */,
 				FC49813C279FD8B300FFD190 /* ContentView.swift in Sources */,
 				FC49813A279FD8B300FFD190 /* SelfChatApp.swift in Sources */,
+				FCF61DD327A454E200658060 /* ReadJsonData.swift in Sources */,
+				FCF7B42827A344C80082A38F /* MessageView.swift in Sources */,
+				FCF7B42627A3448F0082A38F /* ChatView.swift in Sources */,
+				FC498166279FDD6100FFD190 /* MessageBubble.swift in Sources */,
+				FC498168279FDE3F00FFD190 /* Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
