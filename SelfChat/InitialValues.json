@@ -1,0 +1,56 @@
+[
+    {
+      "participant": "John Watson",
+      "messages": [
+        {
+          "content": "blablabla",
+          "isSender": true
+        },
+        {
+          "content": "blablablabla",
+          "isSender": false
+        },
+        {
+          "content": "bla",
+          "isSender": true
+        }
+      ]
+    },
+    {
+      "participant": "Sherlock Holmes",
+      "messages": [
+        {
+          "content": "wowowowow",
+          "isSender": true
+        },
+        {
+          "content": "wow",
+          "isSender": false
+        },
+        {
+          "content": "wowow",
+          "isSender": true
+        }
+      ]
+    },
+    {
+      "participant": "Mary Watson",
+      "messages": [
+        {
+          "content": "Hello!",
+          "isSender": false
+        },
+        {
+          "content": "How're you doing?",
+          "isSender": false
+        },
+        {
+          "content": "Hi! Fine, thanks!",
+          "isSender": true
+        }
+      ]
+    }
+]
+
+
+

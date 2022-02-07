@@ -12,7 +12,7 @@ struct MessageBubble: View {
     
     var background: Color {
         if(message.isSender) {
-            return Colors.custom_blue
+            return Color.accentColor
         } else {
             return Colors.inactive_message
         }
